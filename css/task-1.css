@@ -1,0 +1,69 @@
+#categories {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 24px;
+    border-radius: 8px;
+    padding: 24px;
+    width: 440px;
+    height: 888px;
+    background-color: #fff;
+}
+
+.item {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 16px;
+    border-radius: 8px;
+    padding: 16px;
+    background-color: #f6f6fe;
+}
+
+.item-animals {
+    width: 392px;
+    height: 264px;
+}
+
+.item-products {
+    width: 392px;
+    height: 216px;
+}
+
+.item-technologies {
+    width: 392px;
+    height: 312px;
+}
+
+.title-item {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 1.33;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+}
+
+.list {
+    width: 360px;
+    height: 184px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+.list-item {
+    border: 1px solid #808080;
+    border-radius: 4px;
+    width: 360px;
+    height: 40px;
+    color: #2e2f42;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+
+}

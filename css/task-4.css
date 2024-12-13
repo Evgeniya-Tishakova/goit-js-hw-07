@@ -1,0 +1,63 @@
+.form-field {
+    background-color: #ffffff;
+    padding: 24px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 360px;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 16px;
+    font-size: 14px;
+    color: #2e2f42;
+}
+
+input:hover {
+    border-color: #000;
+}
+
+input:focus {
+    border-color: #7b8ff3;
+    box-shadow: 0 0 5px rgba(123, 143, 243, 0.5);
+
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.form-btn {
+    width: 86px;
+    height: 40px;
+    padding: 8px 16px;
+    background-color: #4e75ff;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-btn:hover {
+    background-color: #5a6bd4;
+}
+
+.form-btn:active {
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 120px;
+    height: 40px;
+    background: #ff4e4e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(0.98);
+    content: 'Destroy';
+}

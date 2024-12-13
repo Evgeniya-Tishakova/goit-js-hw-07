@@ -1,0 +1,42 @@
+.widget {
+    border-radius: 8px;
+    padding: 100px 88px;
+    width: 345px;
+    height: 280px;
+    box-shadow: 0 0 5px rgba(123, 143, 243, 0.5);
+
+}
+
+.color {
+    display: none;
+
+}
+
+
+
+.descr {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;
+    margin-bottom: 16px;
+
+}
+
+.change-color {
+    font-weight: 500;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 148px;
+    height: 40px;
+    background-color: #4e75ff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
